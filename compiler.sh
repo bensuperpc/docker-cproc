@@ -20,8 +20,8 @@
 #//////////////////////////////////////////////////////////////
 
 TAG_VERSION=latest
-DOCKER_IMAGE=bensuperpc/<<IMAGE_NAME>>
-COMPILER_EXEC=<<IMAGE_NAME>>
+DOCKER_IMAGE=bensuperpc/cproc
+COMPILER_EXEC=cproc
 
 case "$1" in
     -version|-v)
